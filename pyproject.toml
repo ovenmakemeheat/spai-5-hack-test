@@ -123,3 +123,9 @@ ignore = []
 
 [tool.nbqa]
 addopts = "--ruff"
+
+[tool.spai.chest]
+chexfound_root = "src/CheXFound"
+# Optional native CheXFound checkpoint paths. Environment variables still override these.
+# chexfound_config = "path/to/config.yaml"
+# chexfound_weights = "path/to/teacher_checkpoint.pth"
