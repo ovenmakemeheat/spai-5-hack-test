@@ -1,1 +1,5 @@
-/project/zz992000-zdevb/Final_Hack/individual-test-chest-disease-detection-dataset/individual-test-chest-disease-detection.zip
+/project/zz992000-zdevb/Final_Hack/individual-test-chest-disease-detection/individual-test-chest-disease-detection.zip
+
+Individual-Heart-Disease-Prediction              Individual-Test-Math-VQA-Challenge
+Individual-Sleep-Stage-Classification            Individual-Test-Thai-Call-Center-ASR
+individual-test-chest-disease-detection

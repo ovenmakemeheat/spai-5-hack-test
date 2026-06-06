@@ -36,7 +36,11 @@ htmlcov/
 Thumbs.db
 
 # Data, model artifacts, and generated outputs
-dataset/
+dataset/*
+dataset/**/*
+!dataset/
+!dataset/**/
+!dataset/**/.gitkeep
 data/
 cache/
 outputs/

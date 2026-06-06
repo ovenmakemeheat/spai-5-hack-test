@@ -67,8 +67,8 @@ Important implementation details:
 
 The notebook implementation in `notebook/call_center_asr/thai_call_center_asr_submission.ipynb` uses the reference technique but adapts it for the local dataset:
 
-- Reads `dataset/individual-test-thai-call-center-asr/sample_submission.csv`.
-- Resolves audio files from `dataset/individual-test-thai-call-center-asr/audio_final/audio`.
+- Reads `dataset/Individual-Test-Thai-Call-Center-ASR/sample_submission.csv`.
+- Resolves audio files from `dataset/Individual-Test-Thai-Call-Center-ASR/audio_final/audio`.
 - Defaults to `biodatlab/whisper-th-medium-combined` because it can be downloaded from Hugging Face and is less hardware-heavy.
 - Keeps Pathumma or local model paths configurable through `ASR_MODEL_ID`.
 - Makes denoising optional with `ENABLE_DENOISE`.

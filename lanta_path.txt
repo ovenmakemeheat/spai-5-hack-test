@@ -2,5 +2,5 @@
 
 # 
 mkdir -p /project/zz992000-zdevb/zz992006/piang/workspace/spai-5-hack-test/dataset && \
-unzip -q /project/zz992000-zdevb/Final_Hack/individual-test-chest-disease-detection-dataset/individual-test-chest-disease-detection.zip \
+unzip -q /project/zz992000-zdevb/Final_Hack/individual-test-chest-disease-detection/individual-test-chest-disease-detection.zip \
 -d /project/zz992000-zdevb/zz992006/piang/workspace/spai-5-hack-test/dataset
