@@ -2,9 +2,14 @@
 
 ## Package Management
 
-- **Do NOT** install, uninstall, or modify packages or dependencies.
 - **Do NOT** run `pip`, `pip3`, or any pip-related commands.
-- Package and dependency management is handled manually by the user.
+- When adding Python packages, always use:
+
+```powershell
+uv add {package} --no-sync
+```
+
+- Do not run `uv add` without `--no-sync`.
 
 ## Python Runtime
 

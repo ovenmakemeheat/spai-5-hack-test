@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
+    "torch",
     "pandas",
     "matplotlib",
     "numpy",
@@ -18,11 +19,23 @@ dependencies = [
     "autogluon-tabular>=1.5.1b20260421",
     "imbalanced-learn>=0.14.1",
     "nbstripout>=0.9.1",
+    "transformers>=5.10.2",
+    "accelerate>=1.13.0",
+    "fiftyone>=1.16.0",
 ]
 
 
 [tool.uv]
 default-groups = ["dev", "notebook"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
 
 [dependency-groups]
 dev = ["ruff>=0.14.13", "ruff-lsp>=0.0.62"]
