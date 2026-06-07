@@ -125,6 +125,7 @@ ignore = []
 addopts = "--ruff"
 
 [tool.spai.chest]
+data_root = "dataset/individual-test-chest-disease-detection"
 chexfound_root = "src/CheXFound"
 # Optional native CheXFound checkpoint paths. Environment variables still override these.
 # chexfound_config = "path/to/config.yaml"
