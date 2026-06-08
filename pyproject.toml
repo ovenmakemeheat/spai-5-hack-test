@@ -127,6 +127,20 @@ addopts = "--ruff"
 [tool.spai.chest]
 data_root = "dataset/individual-test-chest-disease-detection"
 chexfound_root = "src/CheXFound"
+image_size = 518
+resize_size = 518
+batch_size = 2
+n_last_blocks = 4
+glori_decoder_dim = 768
+timm_token_backbone = "vit_giant_patch14_dinov2.lvd142m"
+timm_token_backbones = [
+    "vit_giant_patch14_dinov2.lvd142m",
+    "vit_large_patch14_dinov2.lvd142m",
+    "vit_base_patch14_dinov2.lvd142m",
+    "vit_large_patch16_384.augreg_in21k_ft_in1k",
+    "vit_large_patch16_224.augreg_in21k_ft_in1k",
+    "vit_base_patch16_224.dino",
+]
 # Optional native CheXFound checkpoint paths. Environment variables still override these.
 # chexfound_config = "path/to/config.yaml"
 # chexfound_weights = "path/to/teacher_checkpoint.pth"
